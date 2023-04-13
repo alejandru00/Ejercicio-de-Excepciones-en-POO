@@ -3,7 +3,7 @@
 # Nombre de usuario: alejandru00
 
 # Link del repositorio:
-[Github: ]
+[Github: https://github.com/alejandru00/Ejercicio-de-Excepciones-en-POO.git]
 
 *******************
 
@@ -17,17 +17,29 @@ debe devolver ningún valor.
 Comportamiento esperado: la ejecución del programa en una consola se debe desarrollar de la siguiente manera:
 
 vicente: $ python exceptions.py 
+
 --> 
+
 '' es una entrada incorrecta. Introduzca una dirección de correo 
+
 electrónico 
+
 --> t 
+
 Una dirección de correo electrónico debe tener el formato xxx@xxx.xx 
+
 --> t@t.t 
+
 Cuenta bloqueada a causa de un ataque 
+
 vicente: $ python exceptions.py 
+
 --> vicente@eni.es 
+
 ¡Bienvenido Vicente! 
-Requisitos previos:
+
+
+# Requisitos previos:
 
 Puede usar el módulo de expresiones regulares ofrecido por Python, para determinar si la cadena de caracteres tiene el formato correcto. Para hacerlo, importe el módulo
 "re" (import re) y utilice el método search() de la siguiente manera: re.search(". * @. * \ .. *", s). Esta línea devolverá None si la cadena s no tiene el formato de
